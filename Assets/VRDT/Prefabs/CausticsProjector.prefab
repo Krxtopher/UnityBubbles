@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4704194706653260}
   - component: {fileID: 119527697200095824}
-  - component: {fileID: 114492258061105318}
+  - component: {fileID: 114334834025578942}
   m_Layer: 0
   m_Name: CausticsProjector
   m_TagString: Untagged
@@ -34,14 +34,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1679357771240486}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 5.94, z: 0}
+  m_LocalRotation: {x: 0.6646724, y: -0, z: -0, w: 0.747135}
+  m_LocalPosition: {x: 0, y: 4.43, z: 0.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &114492258061105318
+  m_LocalEulerAnglesHint: {x: 83.314, y: 0, z: 0}
+--- !u!114 &114334834025578942
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -49,7 +49,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1679357771240486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9797f25de9294b7e88b0dcda3bc076a, type: 3}
+  m_Script: {fileID: 11500000, guid: cee21b5c1f94e4877bf82b6ce8bf9bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movie: {fileID: 15200000, guid: 2b18cba586bad4c668eacf7f6f868e9f, type: 3}
@@ -63,7 +63,7 @@ Projector:
   serializedVersion: 2
   m_NearClipPlane: 0.1
   m_FarClipPlane: 10
-  m_FieldOfView: 90
+  m_FieldOfView: 75
   m_AspectRatio: 1
   m_Orthographic: 0
   m_OrthographicSize: 5

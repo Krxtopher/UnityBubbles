@@ -22,6 +22,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _CutoutTex:
+        m_Texture: {fileID: 2800000, guid: 77a4a2fa22c3a44b9912378b5b7b9277, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -62,6 +66,14 @@ Material:
         m_Texture: {fileID: 15200000, guid: 2b18cba586bad4c668eacf7f6f868e9f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ShapeMaskTex:
+        m_Texture: {fileID: 2800000, guid: 77a4a2fa22c3a44b9912378b5b7b9277, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VideoTex:
+        m_Texture: {fileID: 15200000, guid: 2b18cba586bad4c668eacf7f6f868e9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -70,7 +82,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Intensity: 3
+    - _Intensity: 6
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
